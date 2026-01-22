@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan Membuat Order Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .order-card {
+            background-color: white;
+            padding: 20px;
+            width: 350px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .item-list {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .item-list td {
+            padding: 10px 0;
+            border-bottom: 1px solid #f9f9f9;
+            font-size: 14px;
+        }
+        .price {
+            text-align: right;
+            font-weight: bold;
+        }
+        .total-row {
+            font-weight: bold;
+            font-size: 16px;
+            color: #000;
+        }
+        .total-price {
+            text-align: right;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="order-card">
+    <h2>Pesanan</h2>
+    
+    <table class="item-list">
+        <tr>
+            <td>Cappucino</td>
+            <td class="price">Rp 35000</td>
+        </tr>
+        <tr>
+            <td>Green Tea Latte</td>
+            <td class="price">Rp 40000</td>
+        </tr>
+        <tr>
+            <td>Fish and Chips</td>
+            <td class="price">Rp 50000</td>
+        </tr>
+        <tr>
+            <td>Tuna Sandwich</td>
+            <td class="price">Rp 45000</td>
+        </tr>
+        <tr>
+            <td>Mineral Water</td>
+            <td class="price">Rp 8000</td>
+        </tr>
+        <tr>
+            <td>French Fries</td>
+            <td class="price">Rp 18000</td>
+        </tr>
+        <tr class="total-row">
+            <td>Total:</td>
+            <td class="total-price">Rp 0</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
